@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ivy Blog</title>
+    <style>
+
+      body {
+        background-color: rgb(227, 237, 245);
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(196, 111, 41);
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        border: 6px solid rgb(148, 80, 3);
+        padding: 10px 20px;
+      }
+
+      header img.logo {
+        height: 50px;
+      }
+
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #222;
+        font-size: 18px;
+      }
+
+      button.subscribe {
+        background-color: rgb(148, 80, 3);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+
+      .cards {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+
+      .card {
+        color: rgb(23, 4, 54);
+        background-color: antiquewhite;
+        border: 8px solid rgb(148, 80, 3);
+        font-size: 15px;
+        width: 230px;
+        margin: 10px;
+        padding: 16px;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      .card img.thumb {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border: 3px solid rgb(148, 80, 3);
+      }
+
+      .category {
+        color: rgb(148, 80, 3);
+        font-weight: bold;
+      }
+
+      .sidebar {
+        background-color: antiquewhite;
+        border: 8px solid rgb(148, 80, 3);
+        border-radius: 10px;
+        width: 250px;
+        margin: 40px auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .sidebar input {
+        width: 90%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 2px solid rgb(148, 80, 3);
+        border-radius: 6px;
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .sidebar li {
+        margin: 6px 0;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: antiquewhite;
+        border: 6px solid rgb(148, 80, 3);
+        font-size: 15px;
+        color: #070404;
+      }
+
+      footer a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #222;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="images/logo.png" alt="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="subscribe">Subscribe</button>
+    </header>
+
+    <h1>IVY BLOG</h1>
+    <h1 style="font-size:22px;">LATEST ARTICLES</h1>
+
+    <div class="cards">
+      <div class="card">
+        <img class="thumb" src="images/coding.jpg" alt="coding">
+        <p class="category">TECHNOLOGY</p>
+        <h3>5 Practical Tips to Improve Your Coding Skills</h3>
+        <p>Simple habits that can help you become a better developer, faster.</p>
+        <p>By John Doe<br>Aug 28, 2026 - 5 min read</p>
+      </div>
+
+      <div class="card">
+        <img class="thumb" src="images/habits.jpg" alt="notebook">
+        <p class="category">PRODUCTIVITY</p>
+        <h3>How to Build Better Habits That Actually Last</h3>
+        <p>Learn practical strategies to build good habits and stay consistent.</p>
+        <p>By Jane Smith<br>Aug 25, 2026 - 4 min read</p>
+      </div>
+
+      <div class="card">
+        <img class="thumb" src="images/breaks.jpg" alt="man on mountain">
+        <p class="category">LIFESTYLE</p>
+        <h3>The Importance of Taking Breaks</h3>
+        <p>Why rest is essential for your mental health and productivity.</p>
+        <p>By Michael Lee<br>Aug 20, 2026 - 6 min read</p>
+      </div>
+
+      <div class="card">
+        <img class="thumb" src="images/remotework.jpg" alt="laptop and coffee">
+        <p class="category">TECHNOLOGY</p>
+        <h3>Best Tools for Remote Work in 2026</h3>
+        <p>A list of tools that can help you work smarter and stay productive.</p>
+        <p>By Sarah Kim<br>Aug 18, 2026 - 5 min read</p>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <input type="text" placeholder="Search articles...">
+      <ul>
+        <li>All Posts (12)</li>
+        <li>Technology (4)</li>
+        <li>Productivity (3)</li>
+        <li>Lifestyle (3)</li>
+        <li>Career (2)</li>
+      </ul>
+      <h3>Stay Updated</h3>
+      <p>Get the latest articles delivered to your inbox.</p>
+      <input type="email" placeholder="Your email address">
+      <br>
+      <button class="subscribe">Subscribe</button>
+    </div>
+
+    <footer>
+      <img class="logo" src="images/logo.png" alt="logo" style="height:30px;">
+      <p>Simple ideas. Meaningful growth.</p>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <p>&copy; 2026 Ivy Blog. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
